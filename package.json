@@ -1,0 +1,37 @@
+{
+  "name": "poc-switch-to-preact",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "IS_BUILD=1 vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.25.1",
+    "preact": "^10.11.0",
+    "react": "link:node_modules/preact/compat",
+    "react-dom": "link:node_modules/preact/compat",
+    "react-to-webcomponent-demo-component": "1.0.8",
+    "vue": "^2.7.10",
+    "vue-router": "^3.6.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-plugin-typescript": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/eslint-config-typescript": "^11.0.1",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "prettier": "^2.7.1",
+    "typescript": "~4.8.3",
+    "vue-template-compiler": "^2.7.10",
+    "webpack-bundle-analyzer": "^4.6.1"
+  }
+}
